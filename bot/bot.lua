@@ -241,7 +241,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {118682430},--Sudo users
+    sudo_users = {112392827,147828506},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -249,7 +249,7 @@ function create_config( )
     
      Hello my Good friends ߘట搰
      
-    ‼️ this bot is made by :@ Mr_Ah_S
+    ‼️ this bot is made by X_amir_marg_X
 
    〰〰〰〰〰〰〰〰
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
