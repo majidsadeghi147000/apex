@@ -509,7 +509,7 @@ open file ./data/config.lua
 add your id to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    118682430
+    122774063
     0,
     YourID
   }
@@ -518,4 +518,4 @@ then start the bot again
 
 Create a realm using !createrealm command
 
-#SBSS Always The BEST
+#Powered by Creeds
