@@ -211,6 +211,7 @@ function create_config( )
     "banhammer",
     "Boobs",
     "Feedback",
+    "Help",
     "plugins",
     "lock_join",
     "antilink",
@@ -229,6 +230,7 @@ function create_config( )
     "webshot",
     "google",
     "sms",
+    "stats",
     "anti_spam",
     "owners",
     "set",
@@ -247,7 +249,7 @@ function create_config( )
     
      Hello my Good friends ߘట搰
      
-    ‼️ this bot is made by : Mr_Ah_S
+    ‼️ this bot is made by :@ Mr_Ah_S
 
    〰〰〰〰〰〰〰〰
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
