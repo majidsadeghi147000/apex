@@ -1,4 +1,4 @@
-# [Creed BoT](https://telegram.me/creedsteam) 
+#SBSS Bot
 **An Edited Bot Based On [Tele seed](http://github.com/SeedTeam/teleseed) Plugins and Added new and Usefull Plugins to it 
 # Features
 
@@ -87,7 +87,7 @@
 ### Group creation
 >[!/]creategroup [group name]
 >
->>[!/]creategroup Creed
+>>[!/]creategroup SBSS
 >>>will create a group
 >>>
 >>>_Only works in realms for admins but, sudo users can use it everywhere_
@@ -95,7 +95,7 @@
 ### Realm creation
 >[!/]createrealm [realm name]
 >
->>[!/]createrealm Creeds
+>>[!/]createrealm SBSS
 >>>will create a realm
 >>>
 >>>_Only works in realms for admins but, sudo users can use it everywhere_
@@ -135,7 +135,7 @@
 
 ### Setting group name in realm 
 > [!/]setname [Group_id] [text]
->>[!/]setname 123456789 Creed
+>>[!/]setname 123456789 SBSS
 >>>This command will set [text] as name of [Group_id]
 
 ### Setting rules in realm
@@ -214,7 +214,7 @@
 >>>This command will set [User_id] as the owner of [group_id]
 
 ### Bot stats 
->[!/]stats creedbot
+>[!/]stats bot
 >>This command will return bot stats
 
 # Realm Help
@@ -282,7 +282,7 @@ _Sudo users and admins can also use this commands in all groups_
 
 ### Changing Group name
 >[!/]setname [name]
->>[!/]setname Creed
+>>[!/]setname SBSS
 >>>This command will set [name] as name of groups
 
 ### Group link
@@ -404,7 +404,7 @@ _Sudo users and admins can also use this commands in all groups_
 
 ### change name|rules|name
 >[!/]changename [group_id] [name]
->>[!/]changename 123456789 Creed
+>>[!/]changename 123456789 SBSS
 >
 >[!/]changrules [group_id] [rules]
 >>[!/]changrules 123456789 rules !
@@ -456,7 +456,7 @@ _Sudo users and admins can also use this commands in all groups_
 >> This command Writes your Test in picture and sends it to you
 
 
-New plugins BY : [@Creed_is_dead](http://telegram.me/Creed_is_dead)
+New plugins BY : [@Mr_Ah_S](http://telegram.me/Mr_Ah_S)
 
 # Installation 
 
@@ -468,11 +468,11 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # lets install the bot
 cd $HOME
-git clone https://github.com/Creedsteam/creed.git
-cd creed
+git clone https://github.com/MRAHS/BB.git
+cd BB
 chmod +x launch.sh
 ./launch.sh install
-go to creed/tg/tgl/structures.c and in line 983 there is 4 Blue sentences Remove them and put this phrase in the place of those Blues : case CODE_message_media_unsupported:
+go to BB/tg/tgl/structures.c and in line 983 there is 4 Blue sentences Remove them and put this phrase in the place of those Blues : case CODE_message_media_unsupported:
 M->type = tgl_message_media_unsupported;
 break;
 then come back to the TG file and type : Make
@@ -483,7 +483,7 @@ To install everything in one command on debian-based distros, use: (useful for V
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
 
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/creedsteam/creed.git && cd creed && chmod +x launch.sh && ./launch.sh install && cd $home $$ cd creed & cd tg && cd tgl  && nano structures.c
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/MRAHS/BB.git && cd BB && chmod +x launch.sh && ./launch.sh install && cd $home $$ cd BB & cd tg && cd tgl  && nano structures.c
 
 then you have to go to the line 983 there is 4 Blue Line you have to delete them and Put this Sentence in there  : 
 
@@ -495,7 +495,7 @@ then press Ctrl + X and press Y then press ENTER to save the file .
 
 then use this commands in terminal Again : 
 
-cd $home && cd creed && cd tg && make && cd $home && cd creed && ./launch.sh
+cd $home && cd BB && cd tg && make && cd $home && cd BB && ./launch.sh
 
 ```
 ### Realm configuration 
@@ -518,29 +518,4 @@ then start the bot again
 
 Create a realm using !createrealm command
 
-
-# Support and development
-
-Do not contact **us** In private for support.
-Join our bot development group by sending `/join 76950056` to [@Creed_antispam](https://telegram.me/creedantispam_channel)
-
-_If you are using /join service for first time you have to send it 11 times ( Bot is spam reported )_
-
-# Special thanks to
-
-For Creating The [CreedboT](http://github.com/CreedsTeam/Creed)
-
-[@Creed_is_dead](https://telegram.me/Creed_is_dead)
-
-For Managing [@Creed_antispam](https://telegram.me/Creed_antispam) on Telegram
-
-[@Aria_Creed](https://telegram.me/Aria_Creed)
-
-[@Amircc_Creed](https://telegram.me/Amircc_Creed)
-
-[@ArashInfernal](https://telegram.me/ArashInfernal)
-
-For graphic designs
-
-[@Jacki_Pendelton](https://telegram.me/Jacki_Pendelton)
-Our Telegram cahnnels > Persian : [@Creedantispam_Channel](https://telegram.me/creedantispam_Channel)
+#SBSS Always The BEST
